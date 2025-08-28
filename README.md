@@ -29,14 +29,17 @@ go build -o mycli
 You need to tell mycli where to store the todos.
 
 Option 1: Using flag
+```bash
 mycli list --datafile /home/vivek/golang/tridos.json
-
+```
 Option 2: Using environment variable
+```bash
 export TRI_DATAFILE=$HOME/golang/tridos.json
-
+```
 Option 3: Using config file (tri.yaml)
+```bash
 datafile: /home/vivek/golang/tridos.json
-
+```
 🛠️ Usage
 Add a todo
 ```bash
